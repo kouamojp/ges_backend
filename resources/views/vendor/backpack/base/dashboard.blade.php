@@ -34,7 +34,7 @@ $widgets['after_content'][] = [
 
 [ 'type' => 'card', 
 'content'    => [
-'header' => 'Nombre de client :'.$nbre_entreprise,  
+'header' => 'Nombre de client : '.$nbre_entreprise,  
 'body'   => ''
 ]],
 
@@ -42,13 +42,13 @@ $widgets['after_content'][] = [
 
 [ 'type' => 'card', 
 'content'    => [
-'header' => 'Nombre d\'inspecteur :'.$nbre_inspecteur,  
+'header' => 'Nombre d\'inspecteur : '.$nbre_inspecteur,  
 'body'   => ''
 ]],
 
 [ 'type' => 'card', 
 'content'    => [
-'header' => 'Nombre de machine :'.$nbre_machine,  
+'header' => 'Nombre d\'équipements : '.$nbre_machine,  
 'body'   => ''
 ]],
 

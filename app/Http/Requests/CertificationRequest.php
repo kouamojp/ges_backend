@@ -25,7 +25,8 @@ class CertificationRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'name' => 'required|min:5|max:255'
+             'num_reference' => 'required',
+             'certif_file_path' => 'required',  
         ];
     }
 

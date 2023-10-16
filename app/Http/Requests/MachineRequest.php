@@ -25,7 +25,10 @@ class MachineRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'name' => 'required|min:5|max:255'
+            'intitule' => 'required',
+            'num_serie' => 'required',
+            'caract' => 'required',
+            'entreprise_id' => 'required',
         ];
     }
 

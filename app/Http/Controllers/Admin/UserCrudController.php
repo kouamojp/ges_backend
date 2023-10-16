@@ -61,8 +61,10 @@ class UserCrudController extends CrudController
     {
         CRUD::setValidation(UserRequest::class);
 
-        CRUD::field('name');
+       CRUD::field('name');
         CRUD::field('email');
+        CRUD::field('tel');
+        CRUD::field('adresse');
         CRUD::field('password');
 
         /**

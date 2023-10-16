@@ -25,7 +25,12 @@ class EntrepriseRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'name' => 'required|min:5|max:255'
+             'intitule' => 'required',
+             'adresse' => 'required',
+             'telephone' => 'required',
+             'email' => 'required',
+             'password' => 'required',
+
         ];
     }
 
